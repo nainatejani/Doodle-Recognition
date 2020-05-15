@@ -8,6 +8,8 @@ Secondly, the problem of doodle recognition is extremely important. As noted in 
 In this project, I take on the task of building models in order to perform doodle recognition. I use the Quick! Draw! Dataset, which is the world's largest doodling dataset containing over 50 million drawings each belonging to one of the 345 categories.
 # How to use the code
 In order to use the code, it is important to first load the dataset in the drive. 
-The dataset is saved as 'logistic dataset' in the repo. 
+To get the dataset, vist the link https://console.cloud.google.com/storage/browser/quickdraw_dataset/full/numpy_bitmap?pli=1
+Download two files: full_numpy_bitmap_ambulance.npy and full_numpy_bitmap_angle.npy. 
 Create a folder in the drive called ‘logistic dataset’. Import both these files in the drive. Once this is done, open the google collab code and mount the drive.
 Now, follow the instructions in the Google Collab to run the code and get the desired results.
+Note: I tried to load data into github but the data is too big.
